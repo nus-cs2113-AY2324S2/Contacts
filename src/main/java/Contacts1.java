@@ -5,7 +5,7 @@ import java.util.Scanner;
  * This class is used to maintain a list of person data which are saved
  * in a text file.
  **/
-public class Contacts1 {
+public class  Contacts1 {
 
 
     /**
