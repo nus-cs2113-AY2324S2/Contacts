@@ -3,10 +3,12 @@ import java.util.Scanner;
 
 public class Contacts0 {
 
+    public static final int MAX_SIZE = 100;
+
     public static void main(String[] args) {
         final Scanner SCANNER = new Scanner(System.in);
         System.out.println("|| ===================================================");
-        System.out.println("|| ===================================================");
+        System.out.println("|| ====================================================");
         System.out.println("|| Contacts - Version 0.0");
         System.out.println("|| Welcome to Contacts!");
         System.out.println("|| ===================================================");
@@ -92,7 +94,7 @@ public class Contacts0 {
                     feedback = String.format("%1$d persons found!", count);
                     break;
                 case "clear":
-                    list = new String[100][3];
+                    list = new String[MAX_SIZE][3];
                     count = 0;
                     feedback = "Contacts have been cleared!";
                     break;
