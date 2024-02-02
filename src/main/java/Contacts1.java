@@ -39,7 +39,7 @@ public class Contacts1 {
     private static final String MESSAGE_COMMAND_HELP_EXAMPLE = "\tExample: %1$s";
     private static final String MESSAGE_DISPLAY_PERSON_DATA = "%1$s  Phone Number: %2$s  Email: %3$s";
     private static final String MESSAGE_DISPLAY_LIST_ELEMENT_INDEX = "%1$d. ";
-    private static final String MESSAGE_GOODBYE = "Exiting Contacts... Good bye!";
+    private static final String MESSAGE_GOODBYE = "Exiting Contacts... Good bye! Mamba OUT!";
     private static final String MESSAGE_INVALID_COMMAND_FORMAT = "Invalid command format: %1$s " + LS + "%2$s";
     private static final String MESSAGE_PERSONS_FOUND_OVERVIEW = "%1$d persons found!";
     private static final String MESSAGE_WELCOME = "Welcome to Contacts!";
