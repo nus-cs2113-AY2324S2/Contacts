@@ -586,7 +586,7 @@ public class Contacts1 {
         return !name.isEmpty();
         //TODO: implement a better validation
     }
-
+ 
     /**
      * Returns true if the given string as a legal person phone number
      *
