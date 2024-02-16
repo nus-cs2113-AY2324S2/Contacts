@@ -7,7 +7,7 @@ public class Contacts0 {
 
     public static void main(String[] args) {
         final Scanner SCANNER = new Scanner(System.in);
-        welcomeMethod();
+        printWelcomeMessage();
         String[][] list = new String[MAX_ENTRIES][3];
         int count = 0;
         while (true) {
@@ -144,7 +144,7 @@ public class Contacts0 {
         }
     }
 
-    private static void welcomeMethod() {
+    private static void printWelcomeMessage() {
         System.out.println("|| ===================================================");
         System.out.println("|| ===================================================");
         System.out.println("|| Contacts - Version 1.0");
